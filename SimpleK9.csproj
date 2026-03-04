@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SimpleK9</RootNamespace>
+    <AssemblyName>SimpleK9</AssemblyName>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- References to RagePluginHook and LSPDFR DLLs -->
+    <Reference Include="RagePluginHook">
+      <HintPath>..\References\RagePluginHook.exe</HintPath>
+    </Reference>
+    <Reference Include="LSPD First Response">
+      <HintPath>..\References\LSPD First Response.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
